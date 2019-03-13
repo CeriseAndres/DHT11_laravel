@@ -17,3 +17,9 @@
   left: 45px;
   background-color: red;
 }
+
+.card-img-top {
+	display: block; 
+	margin: 0 auto;
+	width: 25%;
+}

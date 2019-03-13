@@ -58,23 +58,23 @@
 				
     				<div class="card day1">
     					<h4 class="card-title font-weight-bold">{{ $getWeather->fcst_day_1->day_short}}</h4>
-    					<img class="card-img-top" src="{{ $getWeather->fcst_day_1->icon}}" alt="Card image cap" style="width: 25%; display: block; margin: 0 auto ">
+    					<img class="card-img-top" src="{{ $getWeather->fcst_day_1->icon}}" alt="Card image cap">
     					<p>{{ $getWeather->fcst_day_1->tmin}}° / {{ $getWeather->fcst_day_1->tmax}}°</p>
     				
       				</div>
                     <div class=" card day2">
                     <h4 class="card-title font-weight-bold">{{ $getWeather->fcst_day_2->day_short}}</h4>
-                    	<img class="card-img-top" src="{{ $getWeather->fcst_day_2->icon}}" alt="Card image cap" style="width: 25%">
+                    	<img class="card-img-top" src="{{ $getWeather->fcst_day_2->icon}}" alt="Card image cap">
                        <p>{{ $getWeather->fcst_day_2->tmin}}° / {{ $getWeather->fcst_day_2->tmax}}°</p>
                     </div>
                     <div class=" card day3">
                     <h4 class="card-title font-weight-bold">{{ $getWeather->fcst_day_3->day_short}}</h4>
-                    <img class="card-img-top" src="{{ $getWeather->fcst_day_3->icon}}" alt="Card image cap" style="width: 25%">
+                    <img class="card-img-top" src="{{ $getWeather->fcst_day_3->icon}}" alt="Card image cap">
                       <p>{{ $getWeather->fcst_day_3->tmin}}° / {{ $getWeather->fcst_day_3->tmax}}°</p>
                     </div>
                     <div class="card day4">
                     <h4 class="card-title font-weight-bold">{{ $getWeather->fcst_day_4->day_short}}</h4>
-                    <img class="card-img-top" src="{{ $getWeather->fcst_day_4->icon}}" alt="Card image cap" style="width: 25%">
+                    <img class="card-img-top" src="{{ $getWeather->fcst_day_4->icon}}" alt="Card image cap">
                       <p>{{ $getWeather->fcst_day_4->tmin}}° / {{ $getWeather->fcst_day_4->tmax}}°</p>
                     </div>
   				</div>
