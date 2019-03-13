@@ -3,8 +3,8 @@
 @section('content')
 
 <div class="container">
-	<div class="row justify-content-center">
-    	<div class="col-md-8">
+	<div class="row d-flex justify-content-center">
+    	<div class="col-md-10">
     		<div class="card">
        			<div class="card-header">Object Connecté DHT11</div>
 				<div class="card-body">
@@ -79,8 +79,17 @@
                     </div>
   				</div>
         
-		</div>
-        <!-- Card -->	
-    </div>
+    		</div>
+            <!-- Card -->
+            
+    	</div>
+    	<!-- Start your project here-->
+      	<div class="col-md-10">
+
+          <canvas id="measureChart"></canvas>
+    		
+        </div>
+          <!-- /Start your project here-->	
+	</div>
 </div>
 @endsection

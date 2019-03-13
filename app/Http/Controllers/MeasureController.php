@@ -33,5 +33,9 @@ class MeasureController extends Controller
         //return view('weather')->withGetWeather($getWeather)-;
         return $getWeather;
     }
-    
+    public function chart()
+    {
+        $result = DB::select('select id, date, temperature, humidite from Donnees_MyDHT11 ORDER BY id DESC LIMIT 24');
+        return response($result);
+    }
 }

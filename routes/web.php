@@ -17,6 +17,7 @@ Route::get('/', function () {
     Route::get('thermometer', 'MeasureController@show');
     Route::get('thermometer', 'MeasureController@getLastMeasure');
     //Route::get('weather', 'WeatherController@index');
+    Route::get('thermo','MeasureController@chart');
 
  
 
