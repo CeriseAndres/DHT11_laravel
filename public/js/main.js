@@ -1,16 +1,16 @@
-var url="http://localhost/eclipse-workspace/DHT11_laravel/public/thermo";
+var url="http://51.75.126.63/DHT11_laravel/public/thermo";
 	$.getJSON(url, function(response){
 		var temp=[];
 		var date=[];
 		var humi=[];
-		
+
 		for	(var i =0; i<response.length; i++){
 			date.push(response[i].date);
 			temp.push(response[i].temperature);
 			humi.push(response[i].humidite);
-			
+
 		}
-		
+
 		var ctx = document.getElementById("measureChart").getContext('2d');
 		var gradientFill = ctx.createLinearGradient(0, 0, 0, 290);
 		var gradientFillbis = ctx.createLinearGradient(0, 0, 0, 100);
