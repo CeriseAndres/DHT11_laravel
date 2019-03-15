@@ -23,7 +23,7 @@
                                         <br>
                                         <p>et {{ $measure->humidite }} d'humidité</p>
 
-                                    @endforeach
+                          @endforeach
 
                 				</div>
                 		</div>
